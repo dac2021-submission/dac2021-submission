@@ -1,0 +1,16 @@
+{
+    "instructions": [
+      {
+        "instruction" : "READ",
+        "ready bound" : 2
+      },
+      {
+        "instruction" : "WRITE",
+        "ready bound" : 2          
+      }       
+    ],
+    "reset": {
+        "length": 2,
+        "enable": "ap_start"
+    }
+  }

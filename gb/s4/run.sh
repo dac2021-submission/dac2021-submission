@@ -1,0 +1,1 @@
+for i in {1..3000..10}; do ./tandem-gb-exe ../tv_v.csv ../tv_i.csv $i >> result_s4; done
