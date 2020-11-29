@@ -1,0 +1,53 @@
+{
+    "models": { "ILA":"m0" , "VERILOG": "m1" },
+    "state mapping": { 
+        "x0"        : "picorv32_simple.cpuregs[0]",
+        "x1"        : "picorv32_simple.cpuregs[1]",
+        "x2"        : "picorv32_simple.cpuregs[2]",
+        "x3"        : "picorv32_simple.cpuregs[3]",
+        "x4"        : "picorv32_simple.cpuregs[4]",
+        "x5"        : "picorv32_simple.cpuregs[5]",
+        "x6"        : "picorv32_simple.cpuregs[6]",
+        "x7"        : "picorv32_simple.cpuregs[7]",
+        "x8"        : "picorv32_simple.cpuregs[8]",
+        "x9"        : "picorv32_simple.cpuregs[9]",
+        "x10"        : "picorv32_simple.cpuregs[10]",
+        "x11"        : "picorv32_simple.cpuregs[11]",
+        "x12"        : "picorv32_simple.cpuregs[12]",
+        "x13"        : "picorv32_simple.cpuregs[13]",
+        "x14"        : "picorv32_simple.cpuregs[14]",
+        "x15"        : "picorv32_simple.cpuregs[15]",
+        "x16"        : "picorv32_simple.cpuregs[16]",
+        "x17"        : "picorv32_simple.cpuregs[17]",
+        "x18"        : "picorv32_simple.cpuregs[18]",
+        "x19"        : "picorv32_simple.cpuregs[19]",
+        "x20"        : "picorv32_simple.cpuregs[20]",
+        "x21"        : "picorv32_simple.cpuregs[21]",
+        "x22"        : "picorv32_simple.cpuregs[22]",
+        "x23"        : "picorv32_simple.cpuregs[23]",
+        "x24"        : "picorv32_simple.cpuregs[24]",
+        "x25"        : "picorv32_simple.cpuregs[25]",
+        "x26"        : "picorv32_simple.cpuregs[26]",
+        "x27"        : "picorv32_simple.cpuregs[27]",
+        "x28"        : "picorv32_simple.cpuregs[28]",
+        "x29"        : "picorv32_simple.cpuregs[29]",
+        "x30"        : "picorv32_simple.cpuregs[30]",   
+        "x31"        : "picorv32_simple.cpuregs[31]",
+        "pc"         : "picorv32_simple.reg_pc"
+    },
+  
+    "interface mapping": {
+       "rst"           :           "**RESET**", 
+       "clk"           :           "**CLOCK**",
+  
+       "mem_rdata"          : "riscv_inst",
+       "mem_ready"     : "1"
+    },
+
+    "monitor": [
+        "reg [31:0] prev_pc;",
+        "prev_pc <= reg_pc;"
+    ]
+  
+  }
+  

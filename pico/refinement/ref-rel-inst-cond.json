@@ -1,0 +1,146 @@
+{
+    "instructions": [
+      { 
+        "instruction" : "BEQ",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "BNE",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "BLT",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "BLTU",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "BGE",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "BGEU",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "JAL",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "JALR",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "LW",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "LH",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "LHU",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "LBU",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SW",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SH",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SB",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "ADD",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "AND",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "OR",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "XOR",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SLL",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SRL",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SUB",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },      
+      {
+        "instruction" : "SRA",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SLT",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SLTU",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "ADDI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },    
+      {
+        "instruction" : "SLTI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "ANDI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "ORI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "XORI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },        
+      {
+        "instruction" : "SLLI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SRLI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "SRAI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },
+      {
+        "instruction" : "LUI",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      },      
+      {
+        "instruction" : "AUIPC",
+        "ready bound" : "picorv32_simple.reg_pc != prev_pc",
+      }      
+    ]  
+  }
+  
+  
