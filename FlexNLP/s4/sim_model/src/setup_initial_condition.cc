@@ -1,0 +1,35 @@
+#include <flex.h>
+void flex::setup_initial_condition() {
+flex_pe2_core_state = 0;
+flex_pe0_core_state = 0;
+flex_pe1_core_state = 0;
+flex_pe3_core_state = 0;
+flex_gb_layer_reduce_start_flag = 0;
+flex_pe_core_cntr = 0;
+flex_pe_act_outgb_cntr = 0;
+flex_pe_act_done_cntr = 0;
+PE0_CORE_CHILD_pe0_core_is_start = 0;
+PE0_CORE_CHILD_pe0_core_manager_cntr = 0;
+PE0_CORE_CHILD_pe0_core_input_counter = 0;
+PE0_CORE_CHILD_pe0_core_output_counter = 0;
+PE1_CORE_CHILD_pe1_core_is_start = 0;
+PE1_CORE_CHILD_pe1_core_manager_cntr = 0;
+PE1_CORE_CHILD_pe1_core_input_counter = 0;
+PE1_CORE_CHILD_pe1_core_output_counter = 0;
+PE2_CORE_CHILD_pe2_core_is_start = 0;
+PE2_CORE_CHILD_pe2_core_manager_cntr = 0;
+PE2_CORE_CHILD_pe2_core_input_counter = 0;
+PE2_CORE_CHILD_pe2_core_output_counter = 0;
+PE3_CORE_CHILD_pe3_core_is_start = 0;
+PE3_CORE_CHILD_pe3_core_manager_cntr = 0;
+PE3_CORE_CHILD_pe3_core_input_counter = 0;
+PE3_CORE_CHILD_pe3_core_output_counter = 0;
+PE0_ACT_CHILD_pe0_act_is_start_reg = 0;
+PE0_ACT_CHILD_pe0_act_state = 4;
+PE1_ACT_CHILD_pe1_act_is_start_reg = 0;
+PE1_ACT_CHILD_pe1_act_state = 4;
+PE2_ACT_CHILD_pe2_act_is_start_reg = 0;
+PE2_ACT_CHILD_pe2_act_state = 4;
+PE3_ACT_CHILD_pe3_act_is_start_reg = 0;
+PE3_ACT_CHILD_pe3_act_state = 4;
+}

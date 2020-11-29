@@ -1,0 +1,148 @@
+{
+    "instructions": [
+        {
+            "instruction": "PE0_CONFIG_RNN_LAYER_SIZING",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE0_CONFIG_MEM_MNGR_FIRST",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE0_CONFIG_MEM_MNGR_SECOND",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE0_CORE_STORE_WEIGHT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE0_CORE_STORE_INPUT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE0_CONFIG_ACT_MNGR",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE0_CONFIG_ACT_VECTOR_0_15",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE0_CONFIG_ACT_VECTOR_16_31",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CONFIG_RNN_LAYER_SIZING",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CONFIG_MEM_MNGR_FIRST",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CONFIG_MEM_MNGR_SECOND",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CORE_STORE_WEIGHT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CORE_STORE_INPUT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CONFIG_ACT_MNGR",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CONFIG_ACT_VECTOR_0_15",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE1_CONFIG_ACT_VECTOR_16_31",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CONFIG_RNN_LAYER_SIZING",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CONFIG_MEM_MNGR_FIRST",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CONFIG_MEM_MNGR_SECOND",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CORE_STORE_WEIGHT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CORE_STORE_INPUT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CONFIG_ACT_MNGR",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CONFIG_ACT_VECTOR_0_15",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE2_CONFIG_ACT_VECTOR_16_31",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CONFIG_RNN_LAYER_SIZING",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CONFIG_MEM_MNGR_FIRST",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CONFIG_MEM_MNGR_SECOND",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CORE_STORE_WEIGHT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CORE_STORE_INPUT_BUFFER",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CONFIG_ACT_MNGR",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CONFIG_ACT_VECTOR_0_15",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "PE3_CONFIG_ACT_VECTOR_16_31",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "GB_CORE_STORE_LARGE",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "CONFIG_GB_CORE_MEM_MNGR_LARGE",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "CONFIG_GB_CONTROL",
+            "ready bound": "master.inst_done"
+        },
+        {
+            "instruction": "GB_CONTROL_START",
+            "ready bound": "interrupted"
+        }
+    ],
+}

@@ -1,0 +1,276 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/xingyue/tandem_simulation/tandem_verification_demo/FlexNLP-demo/tandem_run/matchlib/cmod/include",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2020-11-16 02:27:41",
+            "filesum": 42,
+            "codesum": 5534,
+            "commentsum": 2411,
+            "blanksum": 1010,
+            "statistics": {
+                ".h": {
+                    "code": 5534,
+                    "comment": 2411,
+                    "blank": 1010
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 27,
+                    "code": 94,
+                    "comment": 72,
+                    "filename": "Arbiter.h"
+                },
+                {
+                    "blank": 45,
+                    "code": 287,
+                    "comment": 130,
+                    "filename": "arbitrated_crossbar.h"
+                },
+                {
+                    "blank": 31,
+                    "code": 169,
+                    "comment": 58,
+                    "filename": "ArbitratedScratchpad.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 51,
+                    "comment": 16,
+                    "filename": "ArbitratedScratchpad/ArbitratedScratchpadTypes.h"
+                },
+                {
+                    "blank": 40,
+                    "code": 266,
+                    "comment": 70,
+                    "filename": "ArbitratedScratchpadDP.h"
+                },
+                {
+                    "blank": 77,
+                    "code": 395,
+                    "comment": 112,
+                    "filename": "axi/axi4.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 82,
+                    "comment": 62,
+                    "filename": "axi/axi4_configs.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 63,
+                    "comment": 39,
+                    "filename": "axi/axi4_encoding.h"
+                },
+                {
+                    "blank": 18,
+                    "code": 108,
+                    "comment": 46,
+                    "filename": "axi/AxiAddWriteResponse.h"
+                },
+                {
+                    "blank": 45,
+                    "code": 247,
+                    "comment": 47,
+                    "filename": "axi/AxiArbiter.h"
+                },
+                {
+                    "blank": 20,
+                    "code": 79,
+                    "comment": 42,
+                    "filename": "axi/AxiLiteSlaveToMem.h"
+                },
+                {
+                    "blank": 54,
+                    "code": 282,
+                    "comment": 71,
+                    "filename": "axi/AxiMasterGate.h"
+                },
+                {
+                    "blank": 19,
+                    "code": 106,
+                    "comment": 40,
+                    "filename": "axi/AxiMasterGate/AxiMasterGateIf.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 19,
+                    "comment": 27,
+                    "filename": "axi/AxiMasterGate/ReorderBufWBeats.h"
+                },
+                {
+                    "blank": 37,
+                    "code": 136,
+                    "comment": 30,
+                    "filename": "axi/AxiMasterGate/testbench/Host.h"
+                },
+                {
+                    "blank": 25,
+                    "code": 120,
+                    "comment": 48,
+                    "filename": "axi/AxiRemoveWriteResponse.h"
+                },
+                {
+                    "blank": 34,
+                    "code": 131,
+                    "comment": 45,
+                    "filename": "axi/AxiSlaveToMem.h"
+                },
+                {
+                    "blank": 24,
+                    "code": 152,
+                    "comment": 40,
+                    "filename": "axi/AxiSlaveToReadyValid.h"
+                },
+                {
+                    "blank": 19,
+                    "code": 97,
+                    "comment": 34,
+                    "filename": "axi/AxiSlaveToReadyValid/testbench/RVSink.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 166,
+                    "comment": 44,
+                    "filename": "axi/AxiSlaveToReg.h"
+                },
+                {
+                    "blank": 26,
+                    "code": 172,
+                    "comment": 57,
+                    "filename": "axi/AxiSplitter.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 32,
+                    "comment": 20,
+                    "filename": "axi/testbench/CSVFileReader.h"
+                },
+                {
+                    "blank": 24,
+                    "code": 335,
+                    "comment": 77,
+                    "filename": "axi/testbench/Master.h"
+                },
+                {
+                    "blank": 25,
+                    "code": 150,
+                    "comment": 49,
+                    "filename": "axi/testbench/MasterFromFile.h"
+                },
+                {
+                    "blank": 24,
+                    "code": 178,
+                    "comment": 33,
+                    "filename": "axi/testbench/Slave.h"
+                },
+                {
+                    "blank": 28,
+                    "code": 200,
+                    "comment": 34,
+                    "filename": "axi/testbench/SlaveFromFile.h"
+                },
+                {
+                    "blank": 40,
+                    "code": 118,
+                    "comment": 28,
+                    "filename": "CombinationalBufferedPorts.h"
+                },
+                {
+                    "blank": 22,
+                    "code": 120,
+                    "comment": 94,
+                    "filename": "comptrees.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 60,
+                    "comment": 70,
+                    "filename": "crossbar.h"
+                },
+                {
+                    "blank": 53,
+                    "code": 236,
+                    "comment": 91,
+                    "filename": "fifo.h"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 48,
+                    "filename": "hls_globals.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 34,
+                    "filename": "match_scverify.h"
+                },
+                {
+                    "blank": 14,
+                    "code": 106,
+                    "comment": 46,
+                    "filename": "mem_array.h"
+                },
+                {
+                    "blank": 8,
+                    "code": 24,
+                    "comment": 43,
+                    "filename": "one_hot_to_bin.h"
+                },
+                {
+                    "blank": 24,
+                    "code": 84,
+                    "comment": 56,
+                    "filename": "ReorderBuf.h"
+                },
+                {
+                    "blank": 21,
+                    "code": 95,
+                    "comment": 93,
+                    "filename": "Scratchpad.h"
+                },
+                {
+                    "blank": 10,
+                    "code": 45,
+                    "comment": 16,
+                    "filename": "Scratchpad/ScratchpadTypes.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 43,
+                    "comment": 82,
+                    "filename": "testbench/nvhls_rand.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 5,
+                    "comment": 16,
+                    "filename": "testbench/Pacer.h"
+                },
+                {
+                    "blank": 11,
+                    "code": 34,
+                    "comment": 104,
+                    "filename": "TypeToBits.h"
+                },
+                {
+                    "blank": 15,
+                    "code": 43,
+                    "comment": 47,
+                    "filename": "UIntOrEmpty.h"
+                },
+                {
+                    "blank": 58,
+                    "code": 374,
+                    "comment": 200,
+                    "filename": "WHVCRouter.h"
+                }
+            ]
+        }
+    ]
+}

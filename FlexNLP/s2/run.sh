@@ -1,0 +1,1 @@
+for i in {1..100}; do ./sim_test  >> result_s1p5; done

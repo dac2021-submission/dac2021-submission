@@ -1,0 +1,59 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-11-16 02:27:41
+count workspace : /Users/xingyue/tandem_simulation/tandem_verification_demo/FlexNLP-demo/tandem_run/matchlib/cmod/include
+total files : 42
+total code lines : 5534
+total comment lines : 2411
+total blank lines : 1010
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |             .h|           5534|           2411|           1010| 1.0e+2|
+   -------------------------------------------------------------------------
+Arbiter.h, code is 94, comment is 72, blank is 27.
+arbitrated_crossbar.h, code is 287, comment is 130, blank is 45.
+ArbitratedScratchpad.h, code is 169, comment is 58, blank is 31.
+ArbitratedScratchpad/ArbitratedScratchpadTypes.h, code is 51, comment is 16, blank is 8.
+ArbitratedScratchpadDP.h, code is 266, comment is 70, blank is 40.
+axi/axi4.h, code is 395, comment is 112, blank is 77.
+axi/axi4_configs.h, code is 82, comment is 62, blank is 4.
+axi/axi4_encoding.h, code is 63, comment is 39, blank is 11.
+axi/AxiAddWriteResponse.h, code is 108, comment is 46, blank is 18.
+axi/AxiArbiter.h, code is 247, comment is 47, blank is 45.
+axi/AxiLiteSlaveToMem.h, code is 79, comment is 42, blank is 20.
+axi/AxiMasterGate.h, code is 282, comment is 71, blank is 54.
+axi/AxiMasterGate/AxiMasterGateIf.h, code is 106, comment is 40, blank is 19.
+axi/AxiMasterGate/ReorderBufWBeats.h, code is 19, comment is 27, blank is 7.
+axi/AxiMasterGate/testbench/Host.h, code is 136, comment is 30, blank is 37.
+axi/AxiRemoveWriteResponse.h, code is 120, comment is 48, blank is 25.
+axi/AxiSlaveToMem.h, code is 131, comment is 45, blank is 34.
+axi/AxiSlaveToReadyValid.h, code is 152, comment is 40, blank is 24.
+axi/AxiSlaveToReadyValid/testbench/RVSink.h, code is 97, comment is 34, blank is 19.
+axi/AxiSlaveToReg.h, code is 166, comment is 44, blank is 22.
+axi/AxiSplitter.h, code is 172, comment is 57, blank is 26.
+axi/testbench/CSVFileReader.h, code is 32, comment is 20, blank is 7.
+axi/testbench/Master.h, code is 335, comment is 77, blank is 24.
+axi/testbench/MasterFromFile.h, code is 150, comment is 49, blank is 25.
+axi/testbench/Slave.h, code is 178, comment is 33, blank is 24.
+axi/testbench/SlaveFromFile.h, code is 200, comment is 34, blank is 28.
+CombinationalBufferedPorts.h, code is 118, comment is 28, blank is 40.
+comptrees.h, code is 120, comment is 94, blank is 22.
+crossbar.h, code is 60, comment is 70, blank is 14.
+fifo.h, code is 236, comment is 91, blank is 53.
+hls_globals.h, code is 24, comment is 48, blank is 5.
+match_scverify.h, code is 6, comment is 34, blank is 4.
+mem_array.h, code is 106, comment is 46, blank is 14.
+one_hot_to_bin.h, code is 24, comment is 43, blank is 8.
+ReorderBuf.h, code is 84, comment is 56, blank is 24.
+Scratchpad.h, code is 95, comment is 93, blank is 21.
+Scratchpad/ScratchpadTypes.h, code is 45, comment is 16, blank is 10.
+testbench/nvhls_rand.h, code is 43, comment is 82, blank is 6.
+testbench/Pacer.h, code is 5, comment is 16, blank is 4.
+TypeToBits.h, code is 34, comment is 104, blank is 11.
+UIntOrEmpty.h, code is 43, comment is 47, blank is 15.
+WHVCRouter.h, code is 374, comment is 200, blank is 58.
+===============================================================================

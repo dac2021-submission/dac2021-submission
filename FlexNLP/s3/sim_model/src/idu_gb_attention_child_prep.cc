@@ -1,0 +1,63 @@
+#include <flex.h>
+bool flex::decode_GB_ATTENTION_CHILD_gb_attention_child_prep() {
+sc_biguint<1> local_var_1 = 1;
+bool local_var_2 = (flex_gb_attention_child_valid_flag == local_var_1);
+sc_biguint<5> local_var_4 = 1;
+bool local_var_5 = (flex_gb_attention_child_state == local_var_4);
+bool local_var_6 = (local_var_2 & local_var_5);
+auto& univ_var_513 = local_var_6;
+return univ_var_513;
+}
+void flex::update_GB_ATTENTION_CHILD_gb_attention_child_prep() {
+sc_biguint<32> local_var_0 = 0;
+auto local_var_0_nxt_holder = local_var_0;
+sc_biguint<32> local_var_1 = 0;
+auto local_var_1_nxt_holder = local_var_1;
+sc_biguint<32> local_var_2 = 0;
+auto local_var_2_nxt_holder = local_var_2;
+sc_biguint<32> local_var_3 = 0;
+auto local_var_3_nxt_holder = local_var_3;
+sc_biguint<32> local_var_4 = 0;
+auto local_var_4_nxt_holder = local_var_4;
+sc_biguint<32> local_var_5 = 0;
+auto local_var_5_nxt_holder = local_var_5;
+sc_biguint<32> local_var_6 = 0;
+auto local_var_6_nxt_holder = local_var_6;
+sc_biguint<32> local_var_7 = 0;
+auto local_var_7_nxt_holder = local_var_7;
+sc_biguint<32> local_var_8 = 0;
+auto local_var_8_nxt_holder = local_var_8;
+sc_biguint<32> local_var_9 = 0;
+auto local_var_9_nxt_holder = local_var_9;
+sc_biguint<32> local_var_10 = 0;
+auto local_var_10_nxt_holder = local_var_10;
+sc_biguint<32> local_var_11 = 0;
+auto local_var_11_nxt_holder = local_var_11;
+sc_biguint<32> local_var_12 = 0;
+auto local_var_12_nxt_holder = local_var_12;
+sc_biguint<32> local_var_13 = 0;
+auto local_var_13_nxt_holder = local_var_13;
+sc_biguint<32> local_var_14 = 0;
+auto local_var_14_nxt_holder = local_var_14;
+sc_biguint<32> local_var_15 = 0;
+auto local_var_15_nxt_holder = local_var_15;
+sc_biguint<5> local_var_16 = 2;
+auto local_var_16_nxt_holder = local_var_16;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_0 = local_var_0_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_1 = local_var_1_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_10 = local_var_2_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_11 = local_var_3_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_12 = local_var_4_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_13 = local_var_5_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_14 = local_var_6_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_15 = local_var_7_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_2 = local_var_8_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_3 = local_var_9_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_4 = local_var_10_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_5 = local_var_11_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_6 = local_var_12_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_7 = local_var_13_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_8 = local_var_14_nxt_holder;
+GB_ATTENTION_CHILD_gb_attention_accum_vector_9 = local_var_15_nxt_holder;
+flex_gb_attention_child_state = local_var_16_nxt_holder;
+}
