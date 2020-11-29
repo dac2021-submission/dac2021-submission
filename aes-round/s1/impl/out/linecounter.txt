@@ -1,0 +1,25 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-11-19 20:24:02
+count workspace : /Users/xingyue/tandem_simulation/tandem_verification_demo/AES-ROUND-demo/tandem-run/impl
+total files : 6
+total code lines : 324
+total comment lines : 23
+total blank lines : 50
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |             .h|            156|              3|             27|     48|
+   |            .cc|            165|             20|             23|     51|
+   |           .txt|              3|              0|              0|   0.93|
+   -------------------------------------------------------------------------
+AES_CTR_TOP.cc, code is 129, comment is 17, blank is 17.
+CMakeLists.txt, code is 3, comment is 0, blank is 0.
+include/AES_impl.h, code is 110, comment is 3, blank is 16.
+include/AES_rtl.h, code is 22, comment is 0, blank is 4.
+include/mmio.h, code is 24, comment is 0, blank is 7.
+mmio.cc, code is 36, comment is 3, blank is 6.
+===============================================================================

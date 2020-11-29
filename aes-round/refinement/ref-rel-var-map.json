@@ -1,0 +1,20 @@
+{
+    "models": { "ILA":"m0" , "VERILOG": "m1" },
+    "state mapping": { 
+      "aes_address"        : "mmport.PlainTextPointer",
+      "aes_length"         : "mmport.EncryptLength",
+      "aes_key"            : "mmport.EncryptKey",
+      "aes_counter"        : "mmport.EncryptCtr",
+      "XRAM"               : "buffer"
+    },
+    "interface mapping": {
+       "rst"           :           "**RESET**", 
+       "clk"           :           "**CLOCK**",
+       "addr"          : "cmdaddr",
+       "data_in"       : "cmddata",
+       "wr"            : {"wr": "cmd", "1": "2", "0": "1"}
+    },
+    "functions":{
+        "aes128": "aes_128"
+    }
+  }

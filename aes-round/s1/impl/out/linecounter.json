@@ -1,0 +1,70 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/xingyue/tandem_simulation/tandem_verification_demo/AES-ROUND-demo/tandem-run/impl",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2020-11-19 20:24:02",
+            "filesum": 6,
+            "codesum": 324,
+            "commentsum": 23,
+            "blanksum": 50,
+            "statistics": {
+                ".h": {
+                    "code": 156,
+                    "comment": 3,
+                    "blank": 27
+                },
+                ".cc": {
+                    "code": 165,
+                    "comment": 20,
+                    "blank": 23
+                },
+                ".txt": {
+                    "code": 3,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 17,
+                    "code": 129,
+                    "comment": 17,
+                    "filename": "AES_CTR_TOP.cc"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 16,
+                    "code": 110,
+                    "comment": 3,
+                    "filename": "include/AES_impl.h"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "include/AES_rtl.h"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "include/mmio.h"
+                },
+                {
+                    "blank": 6,
+                    "code": 36,
+                    "comment": 3,
+                    "filename": "mmio.cc"
+                }
+            ]
+        }
+    ]
+}

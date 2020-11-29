@@ -1,0 +1,5 @@
+AUX_SOURCE_DIRECTORY(./ SIM_FILES)
+set(CMAKE_CXX_FLAGS -O3)
+include_directories(include ../impl/include/)
+link_directories(../impl/build)
+add_library(src ${SIM_FILES})
