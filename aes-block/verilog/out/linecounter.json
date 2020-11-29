@@ -1,0 +1,108 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/xingyue/tandem_simulation/tandem_verification_demo/AES-demo/verilog",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2020-11-15 20:59:51",
+            "filesum": 14,
+            "codesum": 1078,
+            "commentsum": 163,
+            "blanksum": 127,
+            "statistics": {
+                ".v": {
+                    "code": 1078,
+                    "comment": 163,
+                    "blank": 127
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 8,
+                    "code": 30,
+                    "comment": 22,
+                    "filename": "aes_128.v"
+                },
+                {
+                    "blank": 46,
+                    "code": 203,
+                    "comment": 54,
+                    "filename": "aes_top.v"
+                },
+                {
+                    "blank": 10,
+                    "code": 28,
+                    "comment": 6,
+                    "filename": "expand_key_128.v"
+                },
+                {
+                    "blank": 7,
+                    "code": 27,
+                    "comment": 16,
+                    "filename": "final_round.v"
+                },
+                {
+                    "blank": 8,
+                    "code": 26,
+                    "comment": 18,
+                    "filename": "one_round.v"
+                },
+                {
+                    "blank": 8,
+                    "code": 73,
+                    "comment": 2,
+                    "filename": "reg16byte.v"
+                },
+                {
+                    "blank": 7,
+                    "code": 82,
+                    "comment": 2,
+                    "filename": "reg256byte.v"
+                },
+                {
+                    "blank": 9,
+                    "code": 24,
+                    "comment": 2,
+                    "filename": "reg2byte.v"
+                },
+                {
+                    "blank": 5,
+                    "code": 22,
+                    "comment": 2,
+                    "filename": "reg32byte.v"
+                },
+                {
+                    "blank": 4,
+                    "code": 265,
+                    "comment": 1,
+                    "filename": "S.v"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 17,
+                    "filename": "S4.v"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 4,
+                    "filename": "T.v"
+                },
+                {
+                    "blank": 5,
+                    "code": 12,
+                    "comment": 16,
+                    "filename": "table_lookup.v"
+                },
+                {
+                    "blank": 3,
+                    "code": 265,
+                    "comment": 1,
+                    "filename": "xS.v"
+                }
+            ]
+        }
+    ]
+}

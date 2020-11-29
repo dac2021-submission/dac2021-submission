@@ -193,7 +193,6 @@ int main(int argc, char **argv) {
   v->v_top->picorv32_simple->cpuregs[1] = 1;
   // tmps
   
-  // TODO(yuex): see if we want to use csv for tv.
   if (argc < 2) 
     std::cout << "Need test-vector input." << std::endl;
   std::ifstream tv_file;

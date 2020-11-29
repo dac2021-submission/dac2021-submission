@@ -1,0 +1,28 @@
+{
+  "models": { "ILA":"m0" , "VERILOG": "m1" },
+  "state mapping": { 
+    "aes_address"        : "aes_top.aes_reg_opaddr_i.reg_out",
+    "aes_length"         : "aes_top.aes_reg_oplen_i.reg_out",
+    "aes_key"            : "aes_top.aes_reg_key0_i.reg_out",
+    "aes_counter"        : "aes_top.aes_reg_ctr_i.reg_out",
+    "aes_status"         : "aes_top.aes_reg_state",
+    "XRAM"               : "xram",
+    "outdata"            : "aes_top.data_out_reg"
+  },
+  "interface mapping": {
+     "rst"           :           "**RESET**", 
+     "clk"           :           "**CLOCK**",
+     "addr"          : "cmdaddr",
+     "data_in"       : "cmddata",
+     "wr"            : {"wr": "cmd", "1": "2", "0": "1"},
+     "xram_data_out" : "**MEM**XRAM.wdata",
+     "xram_data_in"  : "**MEM**XRAM.rdata",
+     "xram_ack"      :                           "**KEEP**",
+     "xram_addr"     :                           "**KEEP**",
+     "xram_wr"       :                           "**KEEP**",
+     "xram_stb"      :                           "**KEEP**"
+  },
+  "functions":{
+      "aes128": "aes_128"
+  }
+}
