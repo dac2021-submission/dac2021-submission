@@ -1,0 +1,1 @@
+for i in {1..100}; do ./tandem-piccolo-exe ../tv.txt ./ ./ >> result_s2; done 

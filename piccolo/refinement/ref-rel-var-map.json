@@ -1,0 +1,77 @@
+{
+    "models": { "ILA":"m0" , "VERILOG": "m1" },
+    "state mapping": { 
+        "x0"        : "mkCPU.gpr_regfile.regfile.arr[0]",
+        "x1"        : "mkCPU.gpr_regfile.regfile.arr[1]",
+        "x2"        : "mkCPU.gpr_regfile.regfile.arr[2]",
+        "x3"        : "mkCPU.gpr_regfile.regfile.arr[3]",
+        "x4"        : "mkCPU.gpr_regfile.regfile.arr[4]",
+        "x5"        : "mkCPU.gpr_regfile.regfile.arr[5]",
+        "x6"        : "mkCPU.gpr_regfile.regfile.arr[6]",
+        "x7"        : "mkCPU.gpr_regfile.regfile.arr[7]",
+        "x8"        : "mkCPU.gpr_regfile.regfile.arr[8]",
+        "x9"        : "mkCPU.gpr_regfile.regfile.arr[9]",
+        "x10"        : "mkCPU.gpr_regfile.regfile.arr[10]",
+        "x11"        : "mkCPU.gpr_regfile.regfile.arr[11]",
+        "x12"        : "mkCPU.gpr_regfile.regfile.arr[12]",
+        "x13"        : "mkCPU.gpr_regfile.regfile.arr[13]",
+        "x14"        : "mkCPU.gpr_regfile.regfile.arr[14]",
+        "x15"        : "mkCPU.gpr_regfile.regfile.arr[15]",
+        "x16"        : "mkCPU.gpr_regfile.regfile.arr[16]",
+        "x17"        : "mkCPU.gpr_regfile.regfile.arr[17]",
+        "x18"        : "mkCPU.gpr_regfile.regfile.arr[18]",
+        "x19"        : "mkCPU.gpr_regfile.regfile.arr[19]",
+        "x20"        : "mkCPU.gpr_regfile.regfile.arr[20]",
+        "x21"        : "mkCPU.gpr_regfile.regfile.arr[21]",
+        "x22"        : "mkCPU.gpr_regfile.regfile.arr[22]",
+        "x23"        : "mkCPU.gpr_regfile.regfile.arr[23]",
+        "x24"        : "mkCPU.gpr_regfile.regfile.arr[24]",
+        "x25"        : "mkCPU.gpr_regfile.regfile.arr[25]",
+        "x26"        : "mkCPU.gpr_regfile.regfile.arr[26]",
+        "x27"        : "mkCPU.gpr_regfile.regfile.arr[27]",
+        "x28"        : "mkCPU.gpr_regfile.regfile.arr[28]",
+        "x29"        : "mkCPU.gpr_regfile.regfile.arr[29]",
+        "x30"        : "mkCPU.gpr_regfile.regfile.arr[30]",   
+        "x31"        : "mkCPU.gpr_regfile.regfile.arr[31]",
+        "pc"         : "p_m[2]",
+        "mem"        : {
+            "addr": "dmem_master_araddr",
+            "addr_valid" : "dmem_master_arvalid",
+            "addr_ready" : "dmem_master_arready",
+            "data_rready" : "dmem_master_rready",
+            "data_rvalid" : "dmem_master_rvalid",
+            "data_rdata" : "dmem_master_rdata",
+            "data_wready" : "dmem_master_wready",
+            "data_wvalid" : "dmem_master_wvalid",
+            "data_wdata" : "dmem_master_wdata"
+        }
+    },
+  
+    "interface mapping": {
+       "rst"           :           "**RESET**", 
+       "clk"           :           "**CLOCK**",
+  
+       "prob_imem_instr"          : "inst",
+       "mem_ready"     : "1"
+    },
+
+    "monitor": {
+        "pipeline": {
+            "0":{
+                "start": "mkCPU.stage1_rg_full"
+            },
+         "1":{
+                "start": "mkCPU.s1_to_s2__024D_IN && mkCPU.s1_to_s2__024EN"
+            },
+            "2":{
+                "start": "mkCPU.s2_to_s3__024D_IN && mkCPU.s2_to_s3__024EN"
+            }
+        },
+        "p_m": {
+            "0": "pc",
+            "1": "p_m[0]",
+            "2": "p_m[1]"
+        }
+    }
+  }
+  
