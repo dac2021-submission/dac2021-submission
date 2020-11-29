@@ -1,0 +1,149 @@
+{
+    "instructions": [
+      {
+        "instruction" : "BEQ",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "BNE",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "BLT",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "BLTU",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "BGE",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "BGEU",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "JAL",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "JALR",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "LW",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "LH",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "LHU",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "LBU",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SW",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SH",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SB",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "ADD",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "AND",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "OR",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "XOR",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SLL",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SRL",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SUB",
+        "ready bound" : "m[0] && m[1]"
+      } ,     
+      {
+        "instruction" : "SRA",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SLT",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SLTU",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "ADDI",
+        "ready bound" : "m[0] && m[1]"
+      }  ,  
+      {
+        "instruction" : "SLTI",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "ANDI",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "ORI",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "XORI",
+        "ready bound" : "m[0] && m[1]"
+      }   ,     
+      {
+        "instruction" : "SLLI",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SRLI",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "SRAI",
+        "ready bound" : "m[0] && m[1]"
+      },
+      {
+        "instruction" : "LUI",
+        "ready bound" : "m[0] && m[1]"
+      }  ,    
+      {
+        "instruction" : "AUIPC",
+        "ready bound" : "m[0] && m[1]"
+      }      
+    ],
+    "reset": {
+        "length": 2,
+        "post_set_length": 2
+    }
+  }
+  

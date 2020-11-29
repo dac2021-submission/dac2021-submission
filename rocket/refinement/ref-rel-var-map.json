@@ -1,0 +1,70 @@
+{
+    "models": {
+        "ILA": "m0",
+        "VERILOG": "m1"
+    },
+    "state mapping": {
+        "x0": "Rocket._T_590[0]",
+        "x1": "Rocket._T_590[1]",
+        "x2": "Rocket._T_590[2]",
+        "x3": "Rocket._T_590[3]",
+        "x4": "Rocket._T_590[4]",
+        "x5": "Rocket._T_590[5]",
+        "x6": "Rocket._T_590[6]",
+        "x7": "Rocket._T_590[7]",
+        "x8": "Rocket._T_590[8]",
+        "x9": "Rocket._T_590[9]",
+        "x10": "Rocket._T_590[10]",
+        "x11": "Rocket._T_590[11]",
+        "x12": "Rocket._T_590[12]",
+        "x13": "Rocket._T_590[13]",
+        "x14": "Rocket._T_590[14]",
+        "x15": "Rocket._T_590[15]",
+        "x16": "Rocket._T_590[16]",
+        "x17": "Rocket._T_590[17]",
+        "x18": "Rocket._T_590[18]",
+        "x19": "Rocket._T_590[19]",
+        "x20": "Rocket._T_590[20]",
+        "x21": "Rocket._T_590[21]",
+        "x22": "Rocket._T_590[22]",
+        "x23": "Rocket._T_590[23]",
+        "x24": "Rocket._T_590[24]",
+        "x25": "Rocket._T_590[25]",
+        "x26": "Rocket._T_590[26]",
+        "x27": "Rocket._T_590[27]",
+        "x28": "Rocket._T_590[28]",
+        "x29": "Rocket._T_590[29]",
+        "x30": "Rocket._T_590[30]",
+        "x31": "Rocket._T_590[31]",
+        "pc": "p_m[1]",
+        "mem": {
+            "req_addr": "io_dmem_req_bits_addr",
+            "req_valid": "io_dmem_req_valid",
+            "req_ready": "io_dmem_req_ready",
+            "req_cmd": "io_dmem_req_bits_cmd",
+            "req_data":"io_dmem_s1_data_data",
+            "resp_addr": "dmem_master_rready",
+            "resp_valid": "io_dmem_resp_valid",
+            "resp_data": "io_dmem_resp_bits_data"
+        }
+    },
+    "interface mapping": {
+        "rst": "**RESET**",
+        "clk": "**CLOCK**",
+        "io_imem_resp_bits_data": "inst",
+        "io_imem_resp_valid": "1"
+    },
+    "monitor": {
+        "pipeline": {
+            "0": {
+                "start": "io_imem_resp_valid"
+            },
+            "1": {
+            }
+        },
+        "p_m": {
+            "0": "pc",
+            "1": "p_m[0]"
+        }
+    }
+}
